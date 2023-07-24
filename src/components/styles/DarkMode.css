@@ -1,0 +1,42 @@
+/* ROOT */
+:root{
+    --color-font-primary: rgb(0, 0, 0);
+    --color-font-secundary: rgb(92, 92, 92);
+
+    
+    --color-primary:rgb(177, 212, 239);
+    --color-secundary: rgb(177, 212, 239);
+    
+    --color-card-primary:  rgb(255, 255, 255);
+    --color-card-secundary:  rgb(64, 194, 246);
+
+    --color-cover-back: #0003;
+
+    
+    transition: 1s ease-in-out;
+}
+.dark{
+    --color-font-primary: rgb(255, 255, 255);
+    --color-font-secundary: rgb(161, 161, 161);
+
+    --color-primary:rgb(25, 31, 44);
+    --color-secundary: rrgba(84, 56, 143, 0);
+
+    --color-card-primary:rgb(0, 0, 0);
+    --color-card-secundary:  rgb(51, 184, 47);
+   
+    --color-cover-back: #ffffff2f;
+
+    width: 100%;
+    height: 100lvh;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    object-fit:cover;
+    background-image: url("./img/fondo.gif");
+    .particles__dark{
+        visibility: hidden;
+    }
+    
+}

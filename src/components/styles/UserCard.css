@@ -1,0 +1,44 @@
+.card{
+    border-radius: 15px;
+    padding: 2em;
+    width: 280px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 1;
+    transition: 0.3s ease-in-out;
+    background-color: var(--color-card-primary);
+    color: var(--color-font-primary);
+
+  }
+  .card:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px;
+    color:var(--color-card-secundary);
+  }
+  
+  .card__header{
+    overflow: hidden;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .user__card__label{
+    color: var( --color-font-primary);
+    padding-right: 150px;
+  }
+
+  .user__card__item-value{
+    color: var( --color-font-secundary);
+  }
+
+  .btn__card{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }

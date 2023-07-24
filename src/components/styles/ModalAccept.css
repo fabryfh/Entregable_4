@@ -1,0 +1,47 @@
+.modal__container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    height: 100vh;
+    width: 100%;
+    background-color:var(--color-cover-back);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    /* visibility: hidden; */
+}
+
+.modal__item{
+    width: 300px;
+    height: 175px;
+    background-color: var( --color-card-primary);
+    color: var(--color-font-primary);
+    border-radius: 15px;
+    padding: 1.5em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.close-modal{
+    transform: scale(0);    
+}
+
+.btn__modal{
+    border: 1px solid;
+    height: 80px;
+    width: 100px;
+    background-color: var(--color-card-secundary);
+    color: white;
+    align-self: center;
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
+}
+
+.btn__modal:hover{
+    filter: brightness(1.2);
+    background-color: var(--color-card-secundary);
+}
